@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(pip3 install pymupdf pyedflib numpy)",
+      "WebSearch",
+      "WebFetch(domain:docs.rs)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:crates.io)",
+      "WebFetch(domain:lib.rs)",
+      "Bash(cargo init:*)",
+      "Bash(cargo build:*)",
+      "Bash(cargo run:*)"
+    ]
+  }
+}
